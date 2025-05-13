@@ -1,1 +1,59 @@
+@media (min-width: 1025px) {
+    .logo {
+        width: 15%;
+        height: 15%;
+    }
 
+    .selectdropdown {
+        width: 70%;
+        height: 80%;
+        padding: 1%;
+    }
+
+    .container-menu,
+    .alertcover {
+        width: 35%;
+        padding: 11px 24px 11px;
+        font-size: 25px;
+    }
+
+    .cardapio-item {
+        width: 90%;
+    }
+
+    .footer {
+        width: 10%;
+        height: 10%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+    .logo {
+        width: 30%;
+        height: 30%;
+    }
+
+    .selectdropdown {
+        width: 70%;
+        height: 80%;
+        padding: 1%;
+    }
+
+    .container-menu,
+    .alertcover {
+        width: 60%;
+        padding: 11px 24px 11px;
+        font-size: 25px;
+    }
+    .cardapio-item {
+        width: 90%;
+    }
+    .cardapio-item {
+        width: 90%;
+    }
+
+    .footer {
+        width: 25%;
+        height: 25%;
+    }
+}
