@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/skq7ntn.css">
+    <link rel="stylesheet" href="removePrato.css.css">
+    <title>cardápio</title>
+</head>
+
+<body>
+    <div class="container-inicio"><!--Inicio do site-->
+        <img src="imagens/logo.png" alt="logo" class="logo"><!--Logo do site-->
+        <div class="alertcover">
+            <p>Couvert artístico R$6,00</p>
+        </div>
+        <div class="container-menu ">
+            <p>Menu</p>
+
+            <select name="OpcoesMenu" id="menu" class="selectdropdown">
+                <option value="carne">Carnes</option>
+                <option value="cerveja">Cervejas</option>
+                <option value="nao_alcoolico">Não Alcoólicos</option>
+                <option value="porcoes">Porções</option>
+            </select>
+
+            <div id="resultado" method="POST"></div>
+            <a href="indexadm.html"><button type="submit" class="button-container button3">Menu</button></a>
+
+        </div>
+        <div>
+            <img src="imagens/empresa.png" alt="" class="footer">
+        </div>
+    </div>
+    <script src="removePrato.js"></script>
+</body>
+
+</html>

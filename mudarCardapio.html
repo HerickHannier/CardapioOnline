@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/skq7ntn.css">
+    <link rel="stylesheet" href="mudarCardapio.css">
+    <link rel="stylesheet" href="responsividade/mudarCardapioRespon.css">
+</head>
+
+<body>
+    <div class="container-inicio"><!--Inicio do site-->
+        <img src="imagens/logo.png" alt="logo" class="logo"><!--Logo do site-->]
+        <div class="info">
+            <h2>Adicionar novo prato</h2>
+            <form id="form-add" action="adicionar_prato.php" method="POST" enctype="multipart/form-data" class="form">
+                <label>Categoria:</label>
+                <select id="categoria" name="categoria" required>
+                    <option value="carne">Carne</option>
+                    <option value="cerveja">Cerveja</option>
+                    <option value="nao_alcoolico">Não Alcoólico</option>
+                    <option value="porcoes">Porções</option>
+                </select><br><br>
+
+                <label>Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label>Preço:</label>
+                <input type="text" id="preco" name="preco" required><br><br>
+
+                <label>Descrição:</label>
+                <input type="text" id="descricao" name="descricao"><br><br>
+
+                <label>URL da imagem:</label>
+                <input type="file" id="imagem" name="imagem" required><br><br>
+
+                <button type="submit" class="button-container button2">Adicionar</button>
+            </form>
+            <a href="indexadm.html"><button type="submit" class="button-container button3">Menu</button></a>
+
+        </div>
+        <div>
+            <img src="imagens/empresa.png" alt=""  class="footer">
+        </div>
+    </div>
+
+</body>
+
+</html>
