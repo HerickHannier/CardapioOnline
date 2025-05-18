@@ -1,0 +1,59 @@
+@media (min-width: 1025px) {
+    .logo {
+        width: 15%;
+        height: 15%;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .info {
+        width: 35%;
+        padding: 11px 24px 11px;
+        font-size: 22px;
+    }
+
+    .container-button {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttoncardapio,
+    .buttonloc {
+        width: 38%;
+    }
+
+    .footer {
+        width: 10%;
+        height: 10%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+    .logo {
+        width: 30%;
+        height: 30%;
+    }
+
+    .info {
+        width: 65%;
+        padding: 11px 24px 11px;
+        font-size: 22px;
+    }
+
+    .container-button {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttoncardapio,
+    .buttonloc {
+        width: 73%;
+    }
+
+    .footer {
+        width: 25%;
+        height: 25%;
+    }
+}
